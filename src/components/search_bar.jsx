@@ -11,7 +11,6 @@ class SearchBar extends Component {
         type="text"
         className="form-control form-search"
         onChange={this.handleUpdate}
-        value={event.target.value} // it's not working :(
       />
     );
   }
